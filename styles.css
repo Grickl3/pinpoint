@@ -18,24 +18,70 @@ h5,h6 {
 	color: #3c3131;
 }
 
-
+.lab {
+	position: fixed;
+	top: 0;
+	right: -30rem;
+	height: 100vh;
+	opacity: .30;
+}
 
 .center-box {
-	margin-top: 50vh;
+	margin-top: 20vh;
 	margin-left: 50%;
 	transform: translateX(-50%);
 
 	/*border: 1px solid black;*/
 }
 
-.point {
+.mark {
+	height: 80px;
+	margin-left: 50%;
+	transform: translateX(-50%);
+}
+
+.logotype {
+	height: 80px;
+	margin-top: 3rem;
+	margin-left: 50%;
+	transform: translateX(-50%);
+}
+
+.contact-box {
+	margin: 7rem;
+	width: 12rem;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	/*border: 1px solid red;*/
+}
+
+.contact {
+	font-family: 'Noto Sans', sans-serif;
+	color: #3b233b;
+	line-height: 1.8rem;
+}
+
+a {
+	text-decoration: none;
+	color: #3b233b;
+}
+
+.name {
+	font-weight: 700;
+}
+
+/*.point {
 	position: absolute;
 	margin-left: 50%;
 	transform: translateX(-50%);
 	height: 30px;
 }
 
-.dot {
+.point-fallen {
+
+}*/
+
+/*.dot {
 	margin-left: auto;
 	margin-right: auto;
 	height: 60px;
@@ -44,4 +90,4 @@ h5,h6 {
 	border-radius: 30px;
 	background: radial-gradient(circle closest-side,
       white, rgba(255,255,255,0));
-}
+}*/
