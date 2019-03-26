@@ -1,0 +1,47 @@
+
+
+
+
+body {
+	background-color: #dad9db;
+}
+
+
+h1,h2 {
+	font-family: 'Noto Serif', serif;
+	color: #303931;
+}
+
+h5,h6 {
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 700;
+	color: #3c3131;
+}
+
+
+
+.center-box {
+	margin-top: 50vh;
+	margin-left: 50%;
+	transform: translateX(-50%);
+
+	/*border: 1px solid black;*/
+}
+
+.point {
+	position: absolute;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	height: 30px;
+}
+
+.dot {
+	margin-left: auto;
+	margin-right: auto;
+	height: 60px;
+	width: 60px;
+
+	border-radius: 30px;
+	background: radial-gradient(circle closest-side,
+      white, rgba(255,255,255,0));
+}
